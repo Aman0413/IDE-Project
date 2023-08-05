@@ -3,19 +3,20 @@ import React from "react";
 function Footer() {
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
+  const a = "bg-neutral-900";
   return (
-    <footer class="bg-neutral-900 text-center text-white flex flex-col justify-center items-center">
-      <div class="container px-6 pt-6 ">
-        <div class="mb-6 flex justify-center ">
+    <footer className=" bg-[#1d1e24] text-center text-white flex flex-col justify-center items-center">
+      <div className="container px-6 pt-6 ">
+        <div className="mb-6 flex justify-center  ">
           <a
             href="mailto:amanv7404@gmail.com"
-            class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+            className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
             data-te-ripple-init
             data-te-ripple-color="light"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="mx-auto h-full w-4"
+              className="mx-auto h-full w-4"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -29,13 +30,13 @@ function Footer() {
 
           <a
             href="https://www.linkedin.com/in/aman-verma-1a459020b/"
-            class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+            className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
             data-te-ripple-init
             data-te-ripple-color="light"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="mx-auto h-full w-4"
+              className="mx-auto h-full w-4"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -45,13 +46,13 @@ function Footer() {
 
           <a
             href="https://github.com/Aman0413"
-            class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
+            className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
             data-te-ripple-init
             data-te-ripple-color="light"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="mx-auto h-full w-4"
+              className="mx-auto h-full w-4"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -61,7 +62,7 @@ function Footer() {
         </div>
       </div>
 
-      <div class="p-4 text-center bg-[rgba(0, 0, 0, 0.2)]">
+      <div className="p-4 text-center bg-[rgba(0, 0, 0, 0.2)]">
         © {currentYear} Made by <span className="text-red-600">♥️</span> by Aman
       </div>
     </footer>
