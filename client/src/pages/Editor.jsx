@@ -59,7 +59,6 @@ function Editor() {
     try {
       setLoading(true);
       const res = await axios.post("run", { code, language });
-      console.log(res.data);
       setOutput(res.data.data);
       setLoading(false);
     } catch (error) {
